@@ -119,7 +119,7 @@ public class OrderDao {
     /**
      * 查询数据库中所有数据
      */
-    public List<Order> getAllDate(){
+    public List<Order> getAllData(){
         SQLiteDatabase db = null;
         Cursor cursor = null;
 
